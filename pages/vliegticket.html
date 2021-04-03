@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../assets/style.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
   <title>SunTours</title>
-</head> 
+</head>
+
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
       <a class="navbar-brand" href="../index.html">
         <img src="../images/sun-tours.png" width="150" height="30" class="d-inline-block align-top" alt="Sun Tours">
       </a>
-      <button class="navbar-toggler" type="button" data-target="navbarNavAltMarkup" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-target="navbarNavAltMarkup" data-bs-toggle="collapse"
+        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+        aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
@@ -30,6 +35,34 @@
       </div>
     </div>
   </nav>
-  
+  <div class="row">
+    <div class="col">
+      <label for="naam">Naam:</label>
+      <input class="naam" type="text"><br>
+      <label for="locaties">Bestemmingen:</label>
+      <select name="locaties">
+        <option value="amsterdam">Amsterdam</option>
+        <option value="sanaa">Sana'a</option>
+        <option value="london">London</option>
+        <option value="ibiza">Ibiza</option>
+        <option value="miami">Miami</option>
+        <option value="cancun">Cancun</option>
+        <option value="sanfransisco">San Fransisco</option>
+        <option value="dubai">Dubai</option>
+        <option value="sydney">Sydney</option>
+        <option value="austin">Austin</option>
+      </select><br>
+      <label for="heenreis">Bestemmingen heenreis datum:</label>
+      <input type="date" id="start" name="trip-start" value="2021-01-01" min="2021-01-01" max="2022-12-31"><br>
+      <label for="terugreis">Bestemmingen terugreis datum:</label>
+      <input type="date" id="end" name="trip-end" value="2021-01-01" min="2021-01-01" max="2022-12-31"><br>
+      <label for="reizigers">Reizigers:</label><br>
+      <label for="volwassenen">Volwassenen</label><br>
+      <input class="volwassenen" type="text"><br>
+      <label for="kinderen">Kinderen</label><br>
+      <input class="kinderen" type="text">
+    </div>
+  </div>
 </body>
+
 </html>
