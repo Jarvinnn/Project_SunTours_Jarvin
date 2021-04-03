@@ -47,4 +47,6 @@ input[type=submit]:hover {
   text-align: center;
   background: rgb(7, 6, 6);
   margin-top: auto;
+  padding-top: 10px;;
+  height: 25px;
 }
