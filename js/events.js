@@ -9,14 +9,15 @@ function selectedItem() {
 }
 
 function showDate() {
+  /*Maak Date variable*/
   var today = new Date();
-
+  /*Maak variable met jaar maand en dag */
   var date = today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + today.getDate();
-
+  /*Maak variable met uur minuten en seconden */
   var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
-
+  /*Maak variable waar je de datum en tijd laat zien*/
   var dateTime = date + ' ' + time;
-
+  /*Zet de data in "datum"*/
   document.getElementById("datum").innerHTML = dateTime;
 }
 
