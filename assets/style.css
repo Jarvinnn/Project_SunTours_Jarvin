@@ -9,6 +9,11 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100%;
+    background-image: url("../images/bg.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 90% 100%;
+    background-position: center;
 }
 
 /*Style submit button*/
@@ -49,4 +54,28 @@ input[type=submit]:hover {
   margin-top: auto;
   padding-top: 10px;;
   height: 25px;
+}
+
+.login {
+  color: #fff;
+}
+
+.date {
+  color: #fff;
+}
+
+h1 {
+  color: #fff;
+}
+
+h2 {
+  color: #fff;
+}
+
+.col {
+  color: #fff;
+}
+
+.col-md-6 {
+  color: #fff;
 }
